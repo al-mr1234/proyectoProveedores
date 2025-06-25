@@ -1,0 +1,9 @@
+npm create vite@latest
+   -react
+   -javascript
+
+cd nombre-proyecto
+npm install
+npm run dev - abrrir servidor de Vite
+
+npm install sweetalert2
