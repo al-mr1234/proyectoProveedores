@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Importa Link
 
 const Navegacion = ()=>{
   return(
-    <nav className="bg-blue-800 p-4 shadow-md w-full">
+    <nav className="bg-red-400 p-4 shadow-md w-full">
     <div className="container mx-auto flex items-center justify-between">
     <Link to="/" className="text-white text-2xl font-bold hover:text-blue-200 transition duration-300">
     Mi tienda online

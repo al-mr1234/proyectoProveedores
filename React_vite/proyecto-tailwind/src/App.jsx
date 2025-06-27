@@ -34,10 +34,12 @@ function App() {
             path="/usuarios"
             element={
               <>
-                <h2 className="text-3xl font-extrabold text-gray-600">
-                  Lista de Proveedores
-                  <Crud />
-                </h2>
+              <div className="w-full">
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-6">
+            Lista de Proveedores
+          </h2>
+               <Crud />
+              </div>
               </>
             }
           />``
